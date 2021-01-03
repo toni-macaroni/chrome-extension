@@ -8,6 +8,15 @@
 	"scripts": ["background.js"],
 	"persistent": false
   },
+  "commands": {
+	"_execute_page_action": {
+		"suggested_key": {
+			"default": "Ctrl+B",
+			"mac": "MacCtrl+B"
+		},
+		"description": "Opens popup.html"
+	}
+  },
   "page_action": {
 	"default_popup": "popup.html",
 	"default_icon": {
